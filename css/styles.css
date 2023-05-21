@@ -1,0 +1,268 @@
+:root {
+    --accent-color: #E5E5E5;
+    --main-color: #2E2F42;
+    --text-color: #FFFFFF;
+    --btn-color: #4D5AE5;
+    --back-color: #E7E9FC;
+    --end-color: #F4F4FD;
+    --one-color: #434455;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color:  var(--one-color);
+    background-color: var(--text-color);
+}
+.link-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--btn-color);
+
+    text-transform: uppercase;
+}
+.link {
+    text-decoration: none;
+}
+.header-header {
+    text-decoration: none;
+}
+.list-header-link {
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.logo-color {
+    color: var(--main-color);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-adress-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--one-color);
+    font-style: normal;
+    list-style: none;
+    
+}
+
+.header-link:hover{
+    color: #404bbf;
+}
+
+.header-link:focus{
+    color: #404bbf;
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.header-adress-link:hover {
+    color: #404bbf;
+}
+.header-adress-link:focus {
+    color: #404bbf;
+}
+.header-adress {
+    text-decoration:none;
+    font-style: normal;
+}
+
+
+/*Секція перша*/
+.studio {
+    background-color: var(--main-color);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
+.firsth {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em; 
+}
+
+.studio .first-btn {
+    background-color: var(--btn-color);
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--text-color);
+}
+.first-btn:hover {
+    background-color: #404BBF;
+}
+.first-btn:focus {
+    background-color: #404BBF;
+}
+
+/*Секція друга*/
+
+.choose{
+    background-color: var(--text-color);
+}
+.first-choose {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-color);
+    letter-spacing: 0.02em;
+}
+
+.second-choose {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+/*Секція третя*/
+
+.work {
+    background-color: var(--text-color);
+}
+
+.work .first-work {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/*Секція четверта*/
+
+.team {
+    background-color: var(--end-color);
+}
+.team .first-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+
+.team .people-team-one {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1px;
+    background-color: var(--text-color);
+}
+.team .second-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-color);
+    letter-spacing: 0.02em;
+}
+.team .third-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+/*Секція footer*/
+.end {
+    background-color: var(--main-color);
+    text-decoration: none;
+    list-style: none;
+}
+.end-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color:#F4F4FD;
+    list-style: none;
+}
+
+.second-btn {
+    color: var(--btn-color);
+    background-color:#F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+}
+.second-btn:hover{
+    background-color: #404BBF;
+    color: var(--text-color);
+    }
+.second-btn:focus{
+    background-color:#404BBF; 
+    color: var(--text-color);
+    } 
+
+
+.logoo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--btn-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--btn-color);
+    text-transform: uppercase;
+}
+.logo-color-two {
+    color: #f4f4fd;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    list-style: none;
+}
+.links-textt{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.links-textt-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
