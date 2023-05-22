@@ -8,6 +8,8 @@
     --one-color: #434455;
 }
 
+/*body*/
+
 body {
     font-family: "Roboto", sans-serif;
     color:  var(--one-color);
@@ -20,14 +22,23 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--btn-color);
-
+    padding: 25.5px;
     text-transform: uppercase;
+    display: flex;
+    margin-right: 76px;
 }
 .link {
     text-decoration: none;
 }
+
+.list1{
+    display: flex;
+    gap: 40px;
+}
+
 .header-header {
     text-decoration: none;
+    padding: 24px;
 }
 .list-header-link {
     text-decoration: none;
@@ -37,12 +48,16 @@ body {
     list-style: none;
 }
 
+/*logo*/
+
 .logo-color {
     color: var(--main-color);
     text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+/*adress*/
 
 .header-adress-link {
     font-weight: 400;
@@ -52,6 +67,7 @@ body {
     color: var(--one-color);
     font-style: normal;
     list-style: none;
+    display: flex;
     
 }
 
@@ -62,27 +78,40 @@ body {
 .header-link:focus{
     color: #404bbf;
 }
+
 .header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    
 }
 
 .header-adress-link:hover {
     color: #404bbf;
+    
 }
 .header-adress-link:focus {
     color: #404bbf;
+    
 }
 .header-adress {
+    display: flex;
     text-decoration:none;
-    font-style: normal;
+    font-style: normal; 
+    margin-left: auto; 
 }
+.list3 {
+    display: flex;
+    gap: 40px;
+}
+
+
 
 
 /*Секція перша*/
+
 .studio {
     background-color: var(--main-color);
     font-size: 56px;
@@ -90,8 +119,10 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-top: 188px;
+    padding-bottom: 188px;
+   
 }
-
 
 .firsth {
     font-style: normal;
@@ -100,6 +131,10 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
+    justify-content: center;
 }
 
 .studio .first-btn {
@@ -111,10 +146,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--text-color);
+    padding: 16px 32px;
+    margin-top: 48px;
 }
+
 .first-btn:hover {
     background-color: #404BBF;
 }
+
 .first-btn:focus {
     background-color: #404BBF;
 }
@@ -123,13 +162,17 @@ body {
 
 .choose{
     background-color: var(--text-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
 .first-choose {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--main-color);
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .second-choose {
@@ -144,6 +187,8 @@ body {
 
 .work {
     background-color: var(--text-color);
+    
+    padding-bottom: 120px;
 }
 
 .work .first-work {
@@ -154,13 +199,17 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 /*Секція четверта*/
 
 .team {
     background-color: var(--end-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
 .team .first-team {
     font-size: 36px;
     line-height: 1.11;
@@ -168,6 +217,8 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-color);
+    margin-bottom: 72px;
+    
 }
 
 .team .people-team-one {
@@ -175,26 +226,38 @@ body {
     font-size: 36px;
     line-height: 1.1px;
     background-color: var(--text-color);
+    width: calc((100% - 60px) / 3);
 }
+
 .team .second-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--main-color);
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    text-align: center;
 }
+
 .team .third-team {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
+    text-align: center;
 }
+
 /*Секція footer*/
+
 .end {
     background-color: var(--main-color);
     text-decoration: none;
     list-style: none;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 .end-text {
     font-style: normal;
@@ -205,7 +268,21 @@ body {
     text-decoration: none;
     color:#F4F4FD;
     list-style: none;
+    max-width: 264px;
+    margin-top: 17.5px;
 }
+
+/*portfolio*/
+
+.listtts {
+    padding-top: 96px;
+    padding-bottom: 72px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
 
 .second-btn {
     color: var(--btn-color);
@@ -217,14 +294,16 @@ body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
 }
+
 .second-btn:hover{
     background-color: #404BBF;
     color: var(--text-color);
-    }
+}
+
 .second-btn:focus{
     background-color:#404BBF; 
     color: var(--text-color);
-    } 
+} 
 
 
 .logoo-link {
@@ -238,6 +317,8 @@ body {
     text-transform: uppercase;
     }
 
+/*portfolio footer*/
+
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -247,6 +328,7 @@ body {
     color: var(--btn-color);
     text-transform: uppercase;
 }
+
 .logo-color-two {
     color: #f4f4fd;
     text-decoration: none;
@@ -254,15 +336,82 @@ body {
     text-transform: uppercase;
     list-style: none;
 }
+
+/*section 1 portfolio*/
+
 .links-textt{ 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    margin-top: 32px;
 }
+
 .links-textt-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
+}
+
+
+
+.listts2 {
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+} 
+
+.section-link {
+    width: calc((100% - 72px) / 3);
+}
+
+/* 3 заняття*/
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.listts {
+    display: flex;
+    align-items: center;
+}
+
+.list4 {
+    display: flex;
+    gap: 24px;
+}
+
+.list5 {
+    display: flex;
+    gap: 24px;
+}
+
+.list6 {
+    display: flex;
+    gap: 24px;
 }
