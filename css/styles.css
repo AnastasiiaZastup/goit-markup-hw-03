@@ -31,7 +31,7 @@ body {
     text-decoration: none;
 }
 
-.list1{
+.listhed{
     display: flex;
     gap: 40px;
 }
@@ -105,7 +105,7 @@ body {
     font-style: normal; 
     margin-left: auto; 
 }
-.list3 {
+.listad {
     display: flex;
     gap: 40px;
 }
@@ -404,7 +404,7 @@ body {
 
 
 
-.listts2 {
+.listtsport {
     padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
@@ -449,17 +449,17 @@ img {
     align-items: center;
 }
 
-.list4 {
+.listchoose {
     display: flex;
     gap: 24px;
 }
 
-.list5 {
+.listwork {
     display: flex;
     gap: 24px;
 }
 
-.list6 {
+.listteam {
     display: flex;
     gap: 24px;
 }
