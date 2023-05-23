@@ -236,8 +236,6 @@ body {
     font-size: 36px;
     line-height: 1.1px;
     background-color: var(--text-color);
-    width: calc((100% - 72px) / 4); 
-    border-radius: 0px 0px 4px 4px;
     text-align: center;
     margin-bottom: 8px;
     text-align: center;
@@ -268,7 +266,7 @@ body {
     text-align: center;
 }
 
-.people-wrap {
+.people-container {
     padding: 32px 16px;
     text-align: center;
     margin-bottom: 8px;
@@ -409,7 +407,7 @@ body {
 }
 
 /* 3 заняття*/
-h3, p {
+p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -453,4 +451,6 @@ img {
 .list6 {
     display: flex;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px; 
+    width: calc((100% - 72px) / 4);
 }
