@@ -34,16 +34,15 @@ body {
 .list1{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-header {
     text-decoration: none;
-    padding: 24px;
-    border-bottom: 1px solid var(--back-color);
 }
+
 .list-header-link {
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .list{
@@ -301,15 +300,16 @@ body {
 
 .porfolio-section {
     padding-top: 96px; 
+    padding-bottom: 120px;
 }
 
 .listtts {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding: 12px 24px;
     border: 1px solid var(--back-color);
     border-radius: 4px;
+    margin-bottom: 72px;
 }
 
 
@@ -322,6 +322,8 @@ body {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 
 .second-btn:hover{
@@ -404,6 +406,7 @@ body {
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 72px;
+    row-gap: 48px;
 } 
 
 .section-link {
@@ -435,6 +438,7 @@ img {
     display: flex;
     align-items: center;
     padding: 0 15px;
+    border-bottom: 1px solid var(--back-color);
 }
 
 .listts {
