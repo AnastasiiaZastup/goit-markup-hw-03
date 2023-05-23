@@ -34,7 +34,6 @@ body {
 .list1{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-header {
@@ -88,6 +87,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
     display: block;
+    padding: 24px 0;
     
 }
 
